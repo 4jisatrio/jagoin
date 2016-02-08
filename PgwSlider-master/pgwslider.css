@@ -53,9 +53,8 @@
     position: absolute;
     width: 100%;
     padding: 12px;
-    text-align: center;
-    /*background: rgba(0, 0, 0, 0.7);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);*/
+    background: rgba(0, 0, 0, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
     left: 0;
     bottom: 0;
     display: none;
