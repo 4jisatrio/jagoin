@@ -4,13 +4,13 @@
 #logo-jagoin img {display: none;}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
+@media (min-width: @screen-sm-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
+@media (min-width: @screen-md-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
+@media (min-width: @screen-lg-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
 
 #logo-jagoin {
     font-size:25px !important;
