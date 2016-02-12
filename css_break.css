@@ -1,5 +1,39 @@
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px){
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+    #logo-jagoin {
+        font-size:25px !important;
+        text-decoration:none;
+        font-family: 'Orbitron', sans-serif !important;
+        color:#31518E;
+        margin:20px 0 !important;
+    }
+
+    #logo-jagoin img {margin:10px 10px 10px 0}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+    #logo-jagoin {
+        font-size:25px !important;
+        text-decoration:none;
+        font-family: 'Orbitron', sans-serif !important;
+        color:#31518E;
+        margin:20px 0 !important;
+    }
+
+    #logo-jagoin img {margin:10px 10px 10px 0}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
     #logo-jagoin {
         font-size:25px !important;
         text-decoration:none;
@@ -24,8 +58,8 @@
     #logo-jagoin img {display: none;}
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px){
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
     #logo-jagoin {
         font-size:25px !important;
         text-decoration:none;
@@ -35,31 +69,4 @@
     }
 
     #logo-jagoin img {display: none;}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px){
-    #logo-jagoin {
-        font-size:25px !important;
-        text-decoration:none;
-        font-family: 'Orbitron', sans-serif !important;
-        color:#31518E;
-        margin:20px 0 !important;
-    }
-
-    #logo-jagoin img {margin:10px 10px 10px 0}
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px){
-
-    #logo-jagoin {
-        font-size:25px !important;
-        text-decoration:none;
-        font-family: 'Orbitron', sans-serif !important;
-        color:#31518E;
-        margin:20px 0 !important;
-    }
-
-    #logo-jagoin img {margin:10px 10px 10px 0}
 }
