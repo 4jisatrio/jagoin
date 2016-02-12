@@ -1,16 +1,13 @@
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-#logo-jagoin img {display: none;}
+@media only screen and (min-width : 320px){#logo-jagoin img {display:none}}
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
+@media only screen and (min-width : 480px){#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
+@media only screen and (min-width : 768px){#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {#logo-jagoin img {margin:10px 10px 10px 0; display: block !important;}}
+@media only screen and (min-width : 992px){#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
+
+@media only screen and (min-width : 1200px){#logo-jagoin img {margin:10px 10px 10px 0; display: block;}}
 
 #logo-jagoin {
     font-size:25px !important;
